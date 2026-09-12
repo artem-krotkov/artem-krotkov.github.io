@@ -78,7 +78,7 @@ h6 {
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 0 15px;
+  padding: 0 15px 55px 15px;
   background: #040b14;
   overflow-y: auto;
 }
@@ -547,6 +547,26 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+}
+
+.resume-details-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 12px;
+  color: #149ddd;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.resume-details-toggle:hover {
+  text-decoration: underline;
+}
+
+.resume-details {
+  margin-top: 6px;
 }
 
 .resume .resume-item:last-child {
@@ -1126,9 +1146,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  padding: 8px 15px;
   color: #f4f6fd;
-  font-size: 14px;
+  font-size: 11px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -1142,9 +1162,9 @@ section {
 }
 
 #footer .credits {
-  padding-top: 5px;
+  padding-top: 2px;
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
   color: #eaebf0;
 }
 
