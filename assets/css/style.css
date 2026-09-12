@@ -467,6 +467,35 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Certificates
+--------------------------------------------------------------*/
+.certificates-gallery {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.certificates-gallery .col-lg-4,
+.certificates-gallery .col-md-6 {
+  margin-bottom: 20px;
+}
+
+.certificates-gallery a {
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.certificates-gallery img {
+  transition: 0.3s;
+}
+
+.certificates-gallery a:hover img {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
